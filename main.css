@@ -3,10 +3,18 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-div {
+#parent-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#advice-div {
     border: 1px solid red;
     background-color: hsl(217, 19%, 38%);
     text-align: center;
+    margin: 50px;
+    padding: 50px;
 }
 
 h2 {
