@@ -1,0 +1,27 @@
+body {
+    background-color: hsl(217, 19%, 24%);
+    font-family: 'Manrope', sans-serif;
+}
+
+div {
+    border: 1px solid red;
+    background-color: hsl(217, 19%, 38%);
+    text-align: center;
+}
+
+h2 {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+
+h3 {
+    color: hsl(150, 100%, 66%);
+}
+
+footer {
+    border: 1px solid red;
+}
+
+a {
+    color: white;
+}
