@@ -9,8 +9,19 @@ body {
     justify-content: center;
 }
 
+button {
+    cursor: pointer;
+    background-color: hsl(150, 100%, 66%);
+    padding: 20px;
+    border: none;
+    border-radius: 100%;
+}
+
+button:hover {
+    box-shadow: 0 10px 30px hsl(150, 100%, 66%);
+}
+
 #advice-div {
-    border: 1px solid red;
     background-color: hsl(217, 19%, 38%);
     text-align: center;
     margin: 50px;
