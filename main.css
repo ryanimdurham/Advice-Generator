@@ -1,12 +1,17 @@
 body {
-    background-color: hsl(217, 19%, 24%);
+    background-color: hsl(218, 23%, 16%);
     font-family: 'Manrope', sans-serif;
 }
 
-#parent-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+div {
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    /* Individually defined the top, left, and right margins in order for the button element to overlap the div */
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px 20px 75px 20px;
+    border-radius: 8px;
 }
 
 button {
@@ -14,18 +19,15 @@ button {
     background-color: hsl(150, 100%, 66%);
     padding: 20px;
     border: none;
+    margin-top: -30px;
+    margin-left: 920px;
+    margin-bottom: 50px;
     border-radius: 100%;
 }
 
 button:hover {
     box-shadow: 0 10px 30px hsl(150, 100%, 66%);
-}
-
-#advice-div {
-    background-color: hsl(217, 19%, 38%);
-    text-align: center;
-    margin: 50px;
-    padding: 50px;
+    transition: all 0.4s ease-in-out;
 }
 
 h2 {
@@ -38,9 +40,27 @@ h3 {
 }
 
 footer {
-    border: 1px solid red;
+   text-align: center;
 }
 
 a {
     color: white;
+}
+
+@media only screen and (max-width:390px) {
+    div {
+        margin: 10%;
+}
+
+    button {
+        margin-left: 800px;
+    }
+
+    #svg-accent {
+        display: none;
+} 
+
+/* .attribution {
+   
+} */
 }
