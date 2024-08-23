@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Ryani's GitHub](https://github.com/ryanimd/Advice-Generator)
-- Live Site URL: [Advice Generator](https://ryanimd.github.io/Advice-Generator/)
+- Solution URL: [Ryani's GitHub](https://github.com/ryanimdurham/Advice-Generator)
+- Live Site URL: [Advice Generator](https://ryanimdurham.github.io/Advice-Generator/)
 
 ## My process
 
